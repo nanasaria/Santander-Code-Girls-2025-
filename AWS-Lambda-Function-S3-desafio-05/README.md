@@ -8,7 +8,7 @@
   - [O que é API Gateway?](#o-que-é-api-gateway)
   - [O que é CloudWatch?](#o-que-é-cloudwatch)
   - [AWS Local com LocalStack](#aws-local-com-localstack)
-  - [Caso de uso da aula](#caso-de-uso-da-aula)
+- [Caso de uso da aula](#caso-de-uso-da-aula)
 - [Arquitetura](#arquitetura)
   - [Explicação da Arquitetura](#explicação-da-arquitetura)
   - [Componentes Utilizados](#componentes-utilizados)
@@ -85,7 +85,9 @@ Principais vantagens:
 ### AWS Local com LocalStack
 LocalStack é um projeto open source que simula serviços da AWS no seu ambiente local. Com ele, você desenvolve, testa e integra aplicações que usam S3, DynamoDB, Lambda, CloudFormation e muitos outros sem acessar a nuvem real nem gerar custos, ideal para ciclos rápidos e pipelines de CI/CD. A edição Community é gratuita e cobre a maioria dos cenários; as versões Pro e Enterprise acrescentam recursos avançados, como emulação mais fiel, ferramentas de produtividade e suporte a endpoints de rede personalizados. O resultado é um fluxo de trabalho mais veloz, previsível e offline, usando o mesmo SDK e a mesma CLI da AWS.
 
-### Caso de uso da aula
+---
+
+## Caso de uso da aula
 **Upload de arquivos com processamento e registro no DynamoDB**
 
 ![Caso de Uso da Aula](./images/case-aula.png)
@@ -95,6 +97,7 @@ LocalStack é um projeto open source que simula serviços da AWS no seu ambiente
 4. Outra função Lambda consulta a tabela e expõe os dados por meio de uma API Gateway.
 
 *Caso de uso abordado em aula, por esse motivo é de um fluxo diferente.*
+
 ---
 
 ## Arquitetura
@@ -117,6 +120,8 @@ Projetei esta arquitetura para entregar objetos do Amazon S3 com segurança, des
 | AWS Lambda (auditoria) | Processa eventos do S3 e grava metadados e estado de acessos na tabela do DynamoDB.                            |
 | Amazon DynamoDB        | Persistência dos metadados de auditoria e estado com TTL para expurgo automático.                              |
 | Amazon CloudWatch Logs | Centralização de logs do API Gateway e das Lambdas, com métricas e alarmes operacionais.                       |
+
+---
 
 ## Conceitos Fundamentais
 ### Como configurar AWS localmente com LocalStack
