@@ -43,7 +43,7 @@ Usuários acionam uma Lambda de entrada que valida a requisição e inicia a exe
 
 ### Componentes Utilizados
 
-| Usuário (Cliente) | Origem das requisições para a aplicação.            |
+| Serviço           | Descrição                                           |
 |-------------------|-----------------------------------------------------|
 | Usuários          | Usuários que acessam a aplicação                    |
 | Amazon Lambda     | Servidor serverless                                 |

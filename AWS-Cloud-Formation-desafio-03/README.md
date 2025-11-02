@@ -34,8 +34,9 @@ Meu diagrama representa uma stack que eu provisiono com AWS CloudFormation para 
 
 ### Componentes Utilizados
 
-| CloudFormation        | Serviço de infraestrutura como código (IaC)         |
+| Serviço               | Descrição                                           |
 |-----------------------|-----------------------------------------------------|
+| CloudFormation        | Serviço de infraestrutura como código (IaC)         |
 | Elastic Load Balancing| Distribui automaticamente o tráfego                 |
 | Amazon VPC            | Ambiente de rede virtual isolado                    |
 | Auto Scaling Group    | Coleção lógica de instâncias do Amazon EC2          |
