@@ -48,7 +48,7 @@ Usuários acionam uma Lambda de entrada que valida a requisição e inicia a exe
 | Usuários          | Usuários que acessam a aplicação                    |
 | Amazon Lambda     | Servidor serverless                                 |
 | Aws Step Functions| Orquestração de fluxos de trabalho                  |
-| Amazon S3         | Armazenamento de arquivos.                          |
+| Amazon S3         | Armazenamento de arquivos                           |
 | Amazon SNS        | Serviço de mensagens                                |
 | Amazon CloudWatch | Monitoramento do percurso                           |
 
