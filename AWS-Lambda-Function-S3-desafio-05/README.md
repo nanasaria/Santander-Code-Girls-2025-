@@ -9,7 +9,7 @@
   - [O que é CloudWatch?](#o-que-é-cloudwatch)
   - [AWS Local com LocalStack](#aws-local-com-localstack)
   - [Caso de uso da aula](#caso-de-uso-da-aula)
-- [Arquitetura](#arquitetura)gateway
+- [Arquitetura](#arquitetura)
   - [Explicação da Arquitetura](#explicação-da-arquitetura)
   - [Componentes Utilizados](#componentes-utilizados)
 - [Conceitos Fundamentais](#conceitos-fundamentais)
@@ -87,11 +87,15 @@ LocalStack é um projeto open source que simula serviços da AWS no seu ambiente
 
 ### Caso de uso da aula
 **Upload de arquivos com processamento e registro no DynamoDB**
+
 ![Caso de Uso da Aula](./images/case-aula.png)
 1. O usuário faz upload de um arquivo (CSV ou JSON) em um bucket S3.
 2. Um evento no S3 dispara uma Lambda Function escrita em Python.
 3. A Lambda processa o conteúdo do arquivo e grava esses dados em uma tabela no DynamoDB.
 4. Outra função Lambda consulta a tabela e expõe os dados por meio de uma API Gateway.
+
+*Caso de uso abordado em aula, por esse motivo é de um fluxo diferente.*
+---
 
 ## Arquitetura
 ![Arquitetura](./images/desafio-05-S3-Lambda-DynamoDB.drawio.png)
