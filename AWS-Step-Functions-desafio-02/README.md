@@ -1,4 +1,4 @@
-# Orquestração com AWS Step Functions (Desafio 2 — Bootcamp Santander Code Girls 2025)
+# Orquestração com AWS Step Functions (Desafio 02 — Bootcamp Santander Code Girls 2025)
 
 ## Sumário
 - [Explicações](#explicações)

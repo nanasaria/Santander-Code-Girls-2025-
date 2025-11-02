@@ -1,4 +1,4 @@
-# AWS CloudFormation (Desafio 3 — Bootcamp Santander Code Girls 2025)
+# AWS CloudFormation (Desafio 03 — Bootcamp Santander Code Girls 2025)
 
 ## Sumário
 - [Explicações](#explicações)

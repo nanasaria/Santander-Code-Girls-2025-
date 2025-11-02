@@ -1,4 +1,4 @@
-# Automação com AWS Lambda e Amazon S3 (Desafio 5 — Bootcamp Santander Code Girls 2025)
+# Automação com AWS Lambda e Amazon S3 (Desafio 05 — Bootcamp Santander Code Girls 2025)
 
 ## Sumário
 - [Explicações](#explicações)
